@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: aqua;
+
+}
+.pinky,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color:rgb(219, 181, 154);
+    width: 25%;
+    border-radius: 5px;
+    padding: 25px;
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase ;
+    color: rgb(219, 29, 29);
+    font-size: 20px;
+}
+form label{
+    color: blueviolet;
+    font-size: 20px;
+}
+form .paisa{
+    width: 100%;
+    height: 20px;
+    border:none ;
+    border-radius:5px ;
+
+}
+form a{
+    text-decoration: none;
+    color: blue;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color:black;
+}
+#cancel{
+    background-color: red;
+}
+.fa-users{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+
+}
+.fa-lock{
+    position: absolute;
+    top: 65%;
+    left: 3%;
+
+}
+#user{
+    position: relative;
+}
+#password{
+    position: relative;
+
+}
